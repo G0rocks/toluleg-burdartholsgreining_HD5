@@ -10,14 +10,18 @@ hnutpunktar1 = [0 1 0;
                0 0 H];
 hnutp_per_element = 3;
 nr_element = 1;
-N1 = formfallafylki(hnutp_per_element, nr_element, hnutpunktar);
+N1 = formfallafylki(hnutp_per_element, nr_element, hnutpunktar1);
 B1 = diff(N1);
 
 % Finna alagsvigur
 disp("a)");
 disp("");
+p1 = alag(hnutpunktar1)
+% setja inn fyrir p
+% setja a = 0
 
 
+%{
 % Finna faerslur
 disp("b)");
 disp("");
@@ -42,3 +46,5 @@ disp("");
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 disp("Daemi 4");
 disp("");
+
+}%
