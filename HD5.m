@@ -13,7 +13,13 @@ nr_element = 1;
 N1 = formfallafylki(hnutp_per_element, nr_element, hnutpunktar);
 B1 = diff(N1);
 
+% Finna alagsvigur
 disp("a)");
+disp("");
+
+
+% Finna faerslur
+disp("b)");
 disp("");
 
 lausn1 = leysa_skifu(hnutpunktar1)
