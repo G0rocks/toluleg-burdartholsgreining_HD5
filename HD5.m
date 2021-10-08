@@ -67,8 +67,8 @@ nodes_per_element2 = 3;
 % Lidur a - Finna formfoll og B-fylki fyrir elementid
 disp("a) Formfoll og B-fylki");
 disp("");
-N2 = formfallafylki(nodes_per_element2,1, hnutpunktar2);
-N2
+N2 = formfallafylki(nodes_per_element2,1, hnutpunktar2)
+B2 = geraB(N2)
 
 
 % Lidur b - Setja upp jofnuhneppi og finna faerslur i hnutpunktum
