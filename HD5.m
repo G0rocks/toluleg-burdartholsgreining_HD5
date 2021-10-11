@@ -25,7 +25,7 @@ B1 = diff(N1);
 % Finna alagsvigur
 disp("a) Alagsvigur");
 disp("");
-p1 = alag(hnutpunktar1)
+p1 = alag(hnutpunktar1;
 % setja inn fyrir p
 % setja a = 0
 
