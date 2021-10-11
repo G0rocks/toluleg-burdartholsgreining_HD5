@@ -73,9 +73,9 @@ function N = formfallafylki(hnutpkt_per_element,nr_elements, coordinates)
                 i = index+1;
                 j = mod(index+1,3)+1;
                 m = mod(index+2,3)+1;
-                alpha(i) = x_coord(j)*y_coord(m)-y_coord(j)*x_coord(m)
-                beta(i) = y_coord(j)-y_coord(m)
-                gamma(i) = x_coord(m)-x_coord(j)
+                alpha(i) = x_coord(j)*y_coord(m)-y_coord(j)*x_coord(m);
+                beta(i) = y_coord(j)-y_coord(m);
+                gamma(i) = x_coord(m)-x_coord(j);
             end % for
             
             % Finna tvofalt flatarmal
