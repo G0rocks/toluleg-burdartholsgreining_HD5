@@ -1,4 +1,4 @@
-function ke = k(i, x, y, E, t, nu, ieg, dof)
+function ke = ke(i, x, y, E, t, nu, ieg, dof)
 a = ieg(1,i); b = ieg(2,i); c = ieg(3,i);	
  x1 = x(a);
  x2 = x(b);

@@ -24,12 +24,8 @@ B1 = diff(N1);
 % Finna alagsvigur
 disp("a) Alagsvigur");
 disp("");
-p1 = alag(hnutpunktar1)
-% setja inn fyrir p
-% setja a = 0
 
 
-%{
 % Finna faerslur
 disp("b) Faerslur");
 disp("");
@@ -71,8 +67,8 @@ nodes_per_element2 = 3;
 % Lidur a - Finna formfoll og B-fylki fyrir elementid
 disp("a) Formfoll og B-fylki");
 disp("");
-N2 = formfallafylki(nodes_per_element2,1, hnutpunktar2)
-B2 = geraB(N2)
+[N2 = formfallafylki(nodes_per_element2,1, hnutpunktar2);
+N2
 
 
 % Lidur b - Setja upp jofnuhneppi og finna faerslur i hnutpunktum
@@ -99,5 +95,3 @@ disp("");
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 disp("Daemi 4");
 disp("");
-
-}%
