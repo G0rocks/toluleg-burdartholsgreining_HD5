@@ -1,3 +1,4 @@
+format compact
 disp("HD 5");
 disp("");
 
@@ -53,6 +54,7 @@ alag = k1;
 D1 = inv(k1).*alag;
 disp("Faerslur eru:");
 D1
+%}
 
 % Daemi 2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,4 +102,3 @@ disp("");
 disp("Daemi 4");
 disp("");
 
-%}
