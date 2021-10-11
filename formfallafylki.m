@@ -87,9 +87,9 @@ function N = formfallafylki(hnutpkt_per_element,nr_elements, coordinates)
             syms Nm;
             syms x;
             syms y;
-            Nm = (alpha(i)+beta(i)*x+gamma(i)*y)/A_times_2
-            Ni = (alpha(j)+beta(j)*x+gamma(j)*y)/A_times_2
-            Nj = (alpha(m)+beta(m)*x+gamma(m)*y)/A_times_2
+            Nm = (alpha(i)+beta(i)*x+gamma(i)*y)/A_times_2;
+            Ni = (alpha(j)+beta(j)*x+gamma(j)*y)/A_times_2;
+            Nj = (alpha(m)+beta(m)*x+gamma(m)*y)/A_times_2;
 
             % Rada i formfallafylki
             %{
